@@ -9,8 +9,7 @@ id = '$id'");
 
 $index = -1; 
 $cart = unserialize(serialize($_SESSION['cart']));
-
-// jika produk sudah ada dalam cart maka pembelian akan diupdate 
+ 
 for ($i=0; $i<count($cart); $i++) { 
 
 	if ($cart($i]['id_produk' ] == $id) {
